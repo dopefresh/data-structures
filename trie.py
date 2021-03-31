@@ -11,7 +11,6 @@ class Trie:
 
     def insert(self, string):
         cur = self.root
-        i = 0
         for i in range(len(string)):
             char = string[i]
             if i < len(string) - 1:
